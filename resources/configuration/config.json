@@ -1,0 +1,20 @@
+{
+  "clock_position": {
+    "x": 960,
+    "y": 240
+  },
+  "clock_color": {
+    "r": 0.71317829457,
+    "g": 0.78294573643,
+    "b": 0.78294573643,
+    "a": 1
+  },
+  "display_size_x": 1920,
+  "display_size_y": 1080,
+  "clock_font_size": 42,
+  "date_font_size": 20,
+  "spacing": 4.045,
+  "show_seconds": true,
+
+  "font_path": "/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf"
+}
