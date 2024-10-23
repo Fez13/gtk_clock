@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/Projects/wl-background-clock
+CMAKE_SOURCE_DIR = /home/federico/Projects/gtk_clock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/Projects/wl-background-clock/build
+CMAKE_BINARY_DIR = /home/federico/Projects/gtk_clock/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gtk_clock.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/gtk_clock.dir/progress.make
 include CMakeFiles/gtk_clock.dir/flags.make
 
 CMakeFiles/gtk_clock.dir/main.cpp.o: CMakeFiles/gtk_clock.dir/flags.make
-CMakeFiles/gtk_clock.dir/main.cpp.o: /home/federico/Projects/wl-background-clock/main.cpp
+CMakeFiles/gtk_clock.dir/main.cpp.o: /home/federico/Projects/gtk_clock/main.cpp
 CMakeFiles/gtk_clock.dir/main.cpp.o: CMakeFiles/gtk_clock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/wl-background-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtk_clock.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/main.cpp.o -MF CMakeFiles/gtk_clock.dir/main.cpp.o.d -o CMakeFiles/gtk_clock.dir/main.cpp.o -c /home/federico/Projects/wl-background-clock/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/gtk_clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtk_clock.dir/main.cpp.o"
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/main.cpp.o -MF CMakeFiles/gtk_clock.dir/main.cpp.o.d -o CMakeFiles/gtk_clock.dir/main.cpp.o -c /home/federico/Projects/gtk_clock/main.cpp
 
 CMakeFiles/gtk_clock.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtk_clock.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/wl-background-clock/main.cpp > CMakeFiles/gtk_clock.dir/main.cpp.i
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/gtk_clock/main.cpp > CMakeFiles/gtk_clock.dir/main.cpp.i
 
 CMakeFiles/gtk_clock.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtk_clock.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/wl-background-clock/main.cpp -o CMakeFiles/gtk_clock.dir/main.cpp.s
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/gtk_clock/main.cpp -o CMakeFiles/gtk_clock.dir/main.cpp.s
 
 CMakeFiles/gtk_clock.dir/src/config.cpp.o: CMakeFiles/gtk_clock.dir/flags.make
-CMakeFiles/gtk_clock.dir/src/config.cpp.o: /home/federico/Projects/wl-background-clock/src/config.cpp
+CMakeFiles/gtk_clock.dir/src/config.cpp.o: /home/federico/Projects/gtk_clock/src/config.cpp
 CMakeFiles/gtk_clock.dir/src/config.cpp.o: CMakeFiles/gtk_clock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/wl-background-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtk_clock.dir/src/config.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/src/config.cpp.o -MF CMakeFiles/gtk_clock.dir/src/config.cpp.o.d -o CMakeFiles/gtk_clock.dir/src/config.cpp.o -c /home/federico/Projects/wl-background-clock/src/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/gtk_clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtk_clock.dir/src/config.cpp.o"
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/src/config.cpp.o -MF CMakeFiles/gtk_clock.dir/src/config.cpp.o.d -o CMakeFiles/gtk_clock.dir/src/config.cpp.o -c /home/federico/Projects/gtk_clock/src/config.cpp
 
 CMakeFiles/gtk_clock.dir/src/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtk_clock.dir/src/config.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/wl-background-clock/src/config.cpp > CMakeFiles/gtk_clock.dir/src/config.cpp.i
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/gtk_clock/src/config.cpp > CMakeFiles/gtk_clock.dir/src/config.cpp.i
 
 CMakeFiles/gtk_clock.dir/src/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtk_clock.dir/src/config.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/wl-background-clock/src/config.cpp -o CMakeFiles/gtk_clock.dir/src/config.cpp.s
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/gtk_clock/src/config.cpp -o CMakeFiles/gtk_clock.dir/src/config.cpp.s
 
 CMakeFiles/gtk_clock.dir/src/context.cpp.o: CMakeFiles/gtk_clock.dir/flags.make
-CMakeFiles/gtk_clock.dir/src/context.cpp.o: /home/federico/Projects/wl-background-clock/src/context.cpp
+CMakeFiles/gtk_clock.dir/src/context.cpp.o: /home/federico/Projects/gtk_clock/src/context.cpp
 CMakeFiles/gtk_clock.dir/src/context.cpp.o: CMakeFiles/gtk_clock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/wl-background-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gtk_clock.dir/src/context.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/src/context.cpp.o -MF CMakeFiles/gtk_clock.dir/src/context.cpp.o.d -o CMakeFiles/gtk_clock.dir/src/context.cpp.o -c /home/federico/Projects/wl-background-clock/src/context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/gtk_clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gtk_clock.dir/src/context.cpp.o"
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/src/context.cpp.o -MF CMakeFiles/gtk_clock.dir/src/context.cpp.o.d -o CMakeFiles/gtk_clock.dir/src/context.cpp.o -c /home/federico/Projects/gtk_clock/src/context.cpp
 
 CMakeFiles/gtk_clock.dir/src/context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtk_clock.dir/src/context.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/wl-background-clock/src/context.cpp > CMakeFiles/gtk_clock.dir/src/context.cpp.i
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/gtk_clock/src/context.cpp > CMakeFiles/gtk_clock.dir/src/context.cpp.i
 
 CMakeFiles/gtk_clock.dir/src/context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtk_clock.dir/src/context.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/wl-background-clock/src/context.cpp -o CMakeFiles/gtk_clock.dir/src/context.cpp.s
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/gtk_clock/src/context.cpp -o CMakeFiles/gtk_clock.dir/src/context.cpp.s
 
 CMakeFiles/gtk_clock.dir/src/gui.cpp.o: CMakeFiles/gtk_clock.dir/flags.make
-CMakeFiles/gtk_clock.dir/src/gui.cpp.o: /home/federico/Projects/wl-background-clock/src/gui.cpp
+CMakeFiles/gtk_clock.dir/src/gui.cpp.o: /home/federico/Projects/gtk_clock/src/gui.cpp
 CMakeFiles/gtk_clock.dir/src/gui.cpp.o: CMakeFiles/gtk_clock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/wl-background-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gtk_clock.dir/src/gui.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/src/gui.cpp.o -MF CMakeFiles/gtk_clock.dir/src/gui.cpp.o.d -o CMakeFiles/gtk_clock.dir/src/gui.cpp.o -c /home/federico/Projects/wl-background-clock/src/gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/federico/Projects/gtk_clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gtk_clock.dir/src/gui.cpp.o"
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtk_clock.dir/src/gui.cpp.o -MF CMakeFiles/gtk_clock.dir/src/gui.cpp.o.d -o CMakeFiles/gtk_clock.dir/src/gui.cpp.o -c /home/federico/Projects/gtk_clock/src/gui.cpp
 
 CMakeFiles/gtk_clock.dir/src/gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtk_clock.dir/src/gui.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/wl-background-clock/src/gui.cpp > CMakeFiles/gtk_clock.dir/src/gui.cpp.i
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/federico/Projects/gtk_clock/src/gui.cpp > CMakeFiles/gtk_clock.dir/src/gui.cpp.i
 
 CMakeFiles/gtk_clock.dir/src/gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtk_clock.dir/src/gui.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/wl-background-clock/src/gui.cpp -o CMakeFiles/gtk_clock.dir/src/gui.cpp.s
+	/usr/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/federico/Projects/gtk_clock/src/gui.cpp -o CMakeFiles/gtk_clock.dir/src/gui.cpp.s
 
 # Object files for target gtk_clock
 gtk_clock_OBJECTS = \
@@ -141,18 +141,41 @@ linux/gtk_clock: CMakeFiles/gtk_clock.dir/src/context.cpp.o
 linux/gtk_clock: CMakeFiles/gtk_clock.dir/src/gui.cpp.o
 linux/gtk_clock: CMakeFiles/gtk_clock.dir/build.make
 linux/gtk_clock: CMakeFiles/gtk_clock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/federico/Projects/wl-background-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable linux/gtk_clock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/federico/Projects/gtk_clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable linux/gtk_clock"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtk_clock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 CMakeFiles/gtk_clock.dir/build: linux/gtk_clock
 .PHONY : CMakeFiles/gtk_clock.dir/build
 
+# Object files for target gtk_clock
+gtk_clock_OBJECTS = \
+"CMakeFiles/gtk_clock.dir/main.cpp.o" \
+"CMakeFiles/gtk_clock.dir/src/config.cpp.o" \
+"CMakeFiles/gtk_clock.dir/src/context.cpp.o" \
+"CMakeFiles/gtk_clock.dir/src/gui.cpp.o"
+
+# External object files for target gtk_clock
+gtk_clock_EXTERNAL_OBJECTS =
+
+CMakeFiles/CMakeRelink.dir/gtk_clock: CMakeFiles/gtk_clock.dir/main.cpp.o
+CMakeFiles/CMakeRelink.dir/gtk_clock: CMakeFiles/gtk_clock.dir/src/config.cpp.o
+CMakeFiles/CMakeRelink.dir/gtk_clock: CMakeFiles/gtk_clock.dir/src/context.cpp.o
+CMakeFiles/CMakeRelink.dir/gtk_clock: CMakeFiles/gtk_clock.dir/src/gui.cpp.o
+CMakeFiles/CMakeRelink.dir/gtk_clock: CMakeFiles/gtk_clock.dir/build.make
+CMakeFiles/CMakeRelink.dir/gtk_clock: CMakeFiles/gtk_clock.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/federico/Projects/gtk_clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CMakeFiles/CMakeRelink.dir/gtk_clock"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtk_clock.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+CMakeFiles/gtk_clock.dir/preinstall: CMakeFiles/CMakeRelink.dir/gtk_clock
+.PHONY : CMakeFiles/gtk_clock.dir/preinstall
+
 CMakeFiles/gtk_clock.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/gtk_clock.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/gtk_clock.dir/clean
 
 CMakeFiles/gtk_clock.dir/depend:
-	cd /home/federico/Projects/wl-background-clock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/Projects/wl-background-clock /home/federico/Projects/wl-background-clock /home/federico/Projects/wl-background-clock/build /home/federico/Projects/wl-background-clock/build /home/federico/Projects/wl-background-clock/build/CMakeFiles/gtk_clock.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/federico/Projects/gtk_clock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/Projects/gtk_clock /home/federico/Projects/gtk_clock /home/federico/Projects/gtk_clock/build /home/federico/Projects/gtk_clock/build /home/federico/Projects/gtk_clock/build/CMakeFiles/gtk_clock.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gtk_clock.dir/depend
 

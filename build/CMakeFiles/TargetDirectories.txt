@@ -1,7 +1,7 @@
-/home/federico/Projects/wl-background-clock/build/CMakeFiles/gtk_clock.dir
-/home/federico/Projects/wl-background-clock/build/CMakeFiles/edit_cache.dir
-/home/federico/Projects/wl-background-clock/build/CMakeFiles/rebuild_cache.dir
-/home/federico/Projects/wl-background-clock/build/CMakeFiles/list_install_components.dir
-/home/federico/Projects/wl-background-clock/build/CMakeFiles/install.dir
-/home/federico/Projects/wl-background-clock/build/CMakeFiles/install/local.dir
-/home/federico/Projects/wl-background-clock/build/CMakeFiles/install/strip.dir
+/home/federico/Projects/gtk_clock/build/CMakeFiles/gtk_clock.dir
+/home/federico/Projects/gtk_clock/build/CMakeFiles/edit_cache.dir
+/home/federico/Projects/gtk_clock/build/CMakeFiles/rebuild_cache.dir
+/home/federico/Projects/gtk_clock/build/CMakeFiles/list_install_components.dir
+/home/federico/Projects/gtk_clock/build/CMakeFiles/install.dir
+/home/federico/Projects/gtk_clock/build/CMakeFiles/install/local.dir
+/home/federico/Projects/gtk_clock/build/CMakeFiles/install/strip.dir

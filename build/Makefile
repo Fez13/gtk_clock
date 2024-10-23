@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/Projects/wl-background-clock
+CMAKE_SOURCE_DIR = /home/federico/Projects/gtk_clock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/Projects/wl-background-clock/build
+CMAKE_BINARY_DIR = /home/federico/Projects/gtk_clock/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/wl-background-clock/build/CMakeFiles /home/federico/Projects/wl-background-clock/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/gtk_clock/build/CMakeFiles /home/federico/Projects/gtk_clock/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/wl-background-clock/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/gtk_clock/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -173,6 +173,11 @@ gtk_clock: cmake_check_build_system
 gtk_clock/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtk_clock.dir/build.make CMakeFiles/gtk_clock.dir/build
 .PHONY : gtk_clock/fast
+
+# Manual pre-install relink rule for target.
+gtk_clock/preinstall:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtk_clock.dir/build.make CMakeFiles/gtk_clock.dir/preinstall
+.PHONY : gtk_clock/preinstall
 
 main.o: main.cpp.o
 .PHONY : main.o

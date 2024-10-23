@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/Projects/wl-background-clock
+CMAKE_SOURCE_DIR = /home/federico/Projects/gtk_clock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/Projects/wl-background-clock/build
+CMAKE_BINARY_DIR = /home/federico/Projects/gtk_clock/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -67,7 +67,7 @@ all: CMakeFiles/gtk_clock.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: CMakeFiles/gtk_clock.dir/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -81,19 +81,24 @@ clean: CMakeFiles/gtk_clock.dir/clean
 CMakeFiles/gtk_clock.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtk_clock.dir/build.make CMakeFiles/gtk_clock.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtk_clock.dir/build.make CMakeFiles/gtk_clock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/federico/Projects/wl-background-clock/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target gtk_clock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/federico/Projects/gtk_clock/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target gtk_clock"
 .PHONY : CMakeFiles/gtk_clock.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gtk_clock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/wl-background-clock/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/gtk_clock/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gtk_clock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/wl-background-clock/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/Projects/gtk_clock/build/CMakeFiles 0
 .PHONY : CMakeFiles/gtk_clock.dir/rule
 
 # Convenience name for target.
 gtk_clock: CMakeFiles/gtk_clock.dir/rule
 .PHONY : gtk_clock
+
+# Pre-install relink rule for target.
+CMakeFiles/gtk_clock.dir/preinstall:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtk_clock.dir/build.make CMakeFiles/gtk_clock.dir/preinstall
+.PHONY : CMakeFiles/gtk_clock.dir/preinstall
 
 # clean rule for target.
 CMakeFiles/gtk_clock.dir/clean:

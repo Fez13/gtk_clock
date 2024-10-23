@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CMakeRelink.dir/gtk_clock"
   "CMakeFiles/gtk_clock.dir/main.cpp.o"
   "CMakeFiles/gtk_clock.dir/main.cpp.o.d"
   "CMakeFiles/gtk_clock.dir/src/config.cpp.o"
